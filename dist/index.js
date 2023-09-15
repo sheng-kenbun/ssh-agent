@@ -382,7 +382,7 @@ try {
 
     let decodedPrivateKey = privateKey;
     // base64 decode privateKey
-    console.log("decodedPrivateKey");
+    console.log(decodedPrivateKey);
     if (useBase64 === 'true') {
         decodedPrivateKey = Buffer.from(privateKey, 'base64').toString('utf8');
     }
